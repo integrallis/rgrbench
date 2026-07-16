@@ -1,0 +1,103 @@
+[project]
+name = "rgrbench"
+version = "0.1.0"
+description = "RGRBench: a TDD kata corpus with mutation-measured oracle strength, an application-scale benchmark oracle for agentic coding systems"
+authors = [{ name = "Brian Sam-Bodden", email = "bsb@redis.com" }]
+readme = "README.md"
+keywords = ["tdd", "testing", "kata", "test-driven-development"]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.urls]
+repository = "https://github.com/integrallis/rgrbench"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.4",
+    "pytest-cov>=6.0",
+    "pytest-xdist>=3.6",
+    "pytest-randomly>=3.15",
+    "mutmut>=3.6",
+    "pytest-timeout>=2.3",
+    "coverage[toml]>=7.6",
+    "black>=25.1",
+    "isort>=6.0",
+    "ruff>=0.8",
+    "mypy>=1.11",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
+
+[tool.pytest.ini_options]
+addopts = "--strict-markers --strict-config --durations=5 --timeout=10"
+testpaths = ["tests"]
+pythonpath = ["src", "."]
+markers = [
+    "slow: marks tests as slow (deselect with '-m \"not slow\"')",
+    "integration: marks tests as requiring external services",
+]
+
+[tool.mutmut]
+paths_to_mutate = [ "src/" ]
+tests_dir = [ "tests/" ]
+
+[tool.black]
+target-version = ['py312', 'py313']
+line-length = 88
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+include_trailing_comma = true
+force_grid_wrap = 0
+use_parentheses = true
+ensure_newline_before_comments = true
+line_length = 88
+skip_gitignore = true
+extend_skip = [".venv"]
+
+[tool.mypy]
+python_version = "3.12"
+disallow_untyped_defs = true
+explicit_package_bases = true
+warn_no_return = false
+warn_unused_ignores = true
+warn_redundant_casts = true
+allow_redefinition = true
+ignore_missing_imports = true
+disable_error_code = "typeddict-item, return-value, union-attr, operator, assignment"
+exclude = [
+    "fastapi-tdd-examples/",
+]
+
+[tool.coverage.run]
+source = ["src"]
+omit = [
+    "*/tests/*",
+    "*/test_*",
+    "*/__pycache__/*",
+]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "if TYPE_CHECKING:",
+    "def __repr__",
+    "raise AssertionError",
+    "raise NotImplementedError",
+    "if 0:",
+    "if __name__ == .__main__.:",
+    "class .*\\bProtocol\\):",
+    "@(abc\\.)?abstractmethod"
+]
+show_missing = true
+skip_covered = false
+skip_empty = true
+
+[tool.coverage.html]
+directory = "htmlcov"
