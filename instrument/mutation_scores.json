@@ -1,0 +1,635 @@
+{
+  "tool": "mutmut",
+  "note": "timeouts counted as caught; 'other' = not-run/skipped",
+  "overall": {
+    "mutants": 4824,
+    "killed": 4731,
+    "survived": 92,
+    "kill_rate": 0.981
+  },
+  "packages": {
+    "addition_triangulation": {
+      "mutants": 1,
+      "killed": 1,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "advent_day6": {
+      "mutants": 25,
+      "killed": 25,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "age_calculator": {
+      "mutants": 20,
+      "killed": 20,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "alarm_system": {
+      "mutants": 11,
+      "killed": 11,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "anagram_detector": {
+      "mutants": 27,
+      "killed": 25,
+      "survived": 2,
+      "other": 0,
+      "kill_rate": 0.926
+    },
+    "balanced_brackets": {
+      "mutants": 17,
+      "killed": 17,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "bank_account": {
+      "mutants": 27,
+      "killed": 27,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "bank_ocr": {
+      "mutants": 94,
+      "killed": 91,
+      "survived": 3,
+      "other": 0,
+      "kill_rate": 0.968
+    },
+    "bingo": {
+      "mutants": 59,
+      "killed": 59,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "bowling_game": {
+      "mutants": 57,
+      "killed": 56,
+      "survived": 1,
+      "other": 0,
+      "kill_rate": 0.982
+    },
+    "calc_stats": {
+      "mutants": 13,
+      "killed": 13,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "calculator_tdd_ebook": {
+      "mutants": 29,
+      "killed": 29,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "change_calculator": {
+      "mutants": 11,
+      "killed": 11,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "character_copy": {
+      "mutants": 27,
+      "killed": 27,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "circuit_breaker": {
+      "mutants": 33,
+      "killed": 31,
+      "survived": 2,
+      "other": 0,
+      "kill_rate": 0.939
+    },
+    "clam_card": {
+      "mutants": 58,
+      "killed": 56,
+      "survived": 2,
+      "other": 0,
+      "kill_rate": 0.966
+    },
+    "code_breaker": {
+      "mutants": 36,
+      "killed": 36,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "conways_sequence": {
+      "mutants": 38,
+      "killed": 38,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "csv_query_engine": {
+      "mutants": 110,
+      "killed": 110,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "darts": {
+      "mutants": 48,
+      "killed": 44,
+      "survived": 4,
+      "other": 0,
+      "kill_rate": 0.917
+    },
+    "decorator_examples": {
+      "mutants": 7,
+      "killed": 7,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "diamond": {
+      "mutants": 61,
+      "killed": 61,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "end_of_line_trim": {
+      "mutants": 33,
+      "killed": 33,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "event_sourcing": {
+      "mutants": 143,
+      "killed": 143,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "fibonacci": {
+      "mutants": 25,
+      "killed": 25,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "fibonacci_brute_force": {
+      "mutants": 19,
+      "killed": 19,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "fibonacci_dynamic": {
+      "mutants": 23,
+      "killed": 23,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "find_max": {
+      "mutants": 20,
+      "killed": 19,
+      "survived": 1,
+      "other": 0,
+      "kill_rate": 0.95
+    },
+    "find_min": {
+      "mutants": 20,
+      "killed": 19,
+      "survived": 1,
+      "other": 0,
+      "kill_rate": 0.95
+    },
+    "fizzbuzz_kata": {
+      "mutants": 74,
+      "killed": 74,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "fluent_calculator": {
+      "mutants": 38,
+      "killed": 38,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "game_of_life": {
+      "mutants": 47,
+      "killed": 42,
+      "survived": 4,
+      "other": 1,
+      "kill_rate": 0.894
+    },
+    "gilded_rose": {
+      "mutants": 66,
+      "killed": 66,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "greeting": {
+      "mutants": 55,
+      "killed": 55,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "heavy_metal_bake_sale": {
+      "mutants": 54,
+      "killed": 54,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "hundred_doors": {
+      "mutants": 34,
+      "killed": 33,
+      "survived": 1,
+      "other": 0,
+      "kill_rate": 0.971
+    },
+    "ip_validator": {
+      "mutants": 34,
+      "killed": 34,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "jelly_vs_tower": {
+      "mutants": 46,
+      "killed": 46,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "kata_potter": {
+      "mutants": 18,
+      "killed": 17,
+      "survived": 1,
+      "other": 0,
+      "kill_rate": 0.944
+    },
+    "last_sunday": {
+      "mutants": 34,
+      "killed": 34,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "laundry_reservation": {
+      "mutants": 110,
+      "killed": 110,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "lcd_digits": {
+      "mutants": 25,
+      "killed": 25,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "leap_year": {
+      "mutants": 14,
+      "killed": 14,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "library_management": {
+      "mutants": 194,
+      "killed": 188,
+      "survived": 6,
+      "other": 0,
+      "kill_rate": 0.969
+    },
+    "linked_list": {
+      "mutants": 102,
+      "killed": 101,
+      "survived": 1,
+      "other": 0,
+      "kill_rate": 0.99
+    },
+    "markdown_parser": {
+      "mutants": 67,
+      "killed": 67,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "mars_rover": {
+      "mutants": 68,
+      "killed": 66,
+      "survived": 2,
+      "other": 0,
+      "kill_rate": 0.971
+    },
+    "maze_walker": {
+      "mutants": 96,
+      "killed": 96,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "memory_cache": {
+      "mutants": 47,
+      "killed": 46,
+      "survived": 1,
+      "other": 0,
+      "kill_rate": 0.979
+    },
+    "metric_converter": {
+      "mutants": 3,
+      "killed": 3,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "mine_fields": {
+      "mutants": 35,
+      "killed": 32,
+      "survived": 3,
+      "other": 0,
+      "kill_rate": 0.914
+    },
+    "money": {
+      "mutants": 67,
+      "killed": 67,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "natural_string_sorting": {
+      "mutants": 35,
+      "killed": 33,
+      "survived": 2,
+      "other": 0,
+      "kill_rate": 0.943
+    },
+    "numbers_to_words": {
+      "mutants": 39,
+      "killed": 39,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "odd_even_kata": {
+      "mutants": 75,
+      "killed": 72,
+      "survived": 3,
+      "other": 0,
+      "kill_rate": 0.96
+    },
+    "pagination": {
+      "mutants": 73,
+      "killed": 73,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "parking_lot": {
+      "mutants": 96,
+      "killed": 95,
+      "survived": 1,
+      "other": 0,
+      "kill_rate": 0.99
+    },
+    "password_verifier": {
+      "mutants": 36,
+      "killed": 36,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "poker_hands": {
+      "mutants": 124,
+      "killed": 123,
+      "survived": 1,
+      "other": 0,
+      "kill_rate": 0.992
+    },
+    "prime_factor": {
+      "mutants": 14,
+      "killed": 14,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "rate_limiter": {
+      "mutants": 25,
+      "killed": 25,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "recently_used_list": {
+      "mutants": 33,
+      "killed": 32,
+      "survived": 1,
+      "other": 0,
+      "kill_rate": 0.97
+    },
+    "recipe_calculator": {
+      "mutants": 12,
+      "killed": 12,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "robot_factory": {
+      "mutants": 65,
+      "killed": 65,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "rock_paper_scissors": {
+      "mutants": 6,
+      "killed": 6,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "roman_numerals": {
+      "mutants": 50,
+      "killed": 50,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "shopping_cart": {
+      "mutants": 201,
+      "killed": 200,
+      "survived": 1,
+      "other": 0,
+      "kill_rate": 0.995
+    },
+    "snake_game": {
+      "mutants": 63,
+      "killed": 63,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "social_network": {
+      "mutants": 74,
+      "killed": 72,
+      "survived": 2,
+      "other": 0,
+      "kill_rate": 0.973
+    },
+    "stack": {
+      "mutants": 24,
+      "killed": 24,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "string_calculator": {
+      "mutants": 56,
+      "killed": 56,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "string_helper": {
+      "mutants": 9,
+      "killed": 9,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "string_sum": {
+      "mutants": 13,
+      "killed": 13,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "string_transformer": {
+      "mutants": 66,
+      "killed": 66,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "sum_example": {
+      "mutants": 1,
+      "killed": 1,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "supermarket_pricing": {
+      "mutants": 82,
+      "killed": 81,
+      "survived": 1,
+      "other": 0,
+      "kill_rate": 0.988
+    },
+    "tennis_game": {
+      "mutants": 63,
+      "killed": 53,
+      "survived": 10,
+      "other": 0,
+      "kill_rate": 0.841
+    },
+    "tetris": {
+      "mutants": 277,
+      "killed": 257,
+      "survived": 20,
+      "other": 0,
+      "kill_rate": 0.928
+    },
+    "text_justification": {
+      "mutants": 82,
+      "killed": 82,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "tic_tac_toe": {
+      "mutants": 68,
+      "killed": 68,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "time_zone_converter": {
+      "mutants": 17,
+      "killed": 17,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "timesheet_calculator": {
+      "mutants": 91,
+      "killed": 89,
+      "survived": 2,
+      "other": 0,
+      "kill_rate": 0.978
+    },
+    "url_parts": {
+      "mutants": 91,
+      "killed": 91,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "url_shortener": {
+      "mutants": 85,
+      "killed": 85,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "video_club_rental": {
+      "mutants": 46,
+      "killed": 46,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "weather_station": {
+      "mutants": 93,
+      "killed": 93,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "word_wrap": {
+      "mutants": 47,
+      "killed": 47,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "xunit": {
+      "mutants": 19,
+      "killed": 19,
+      "survived": 0,
+      "other": 0,
+      "kill_rate": 1.0
+    },
+    "zombie_survivor": {
+      "mutants": 153,
+      "killed": 140,
+      "survived": 13,
+      "other": 0,
+      "kill_rate": 0.915
+    }
+  }
+}
